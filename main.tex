@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Aaman}{Bhandari}{ \urlstyle{same}\url{bhandaa1@warhawks.ulm.edu} \\
+{309 N McGuire Avenue, Monroe, LA-71203} | 318.237.7578\\
+Github:// \href{https://github.com/thechemist54}{\custombold{thechemist54}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/aaman-bhandari}{\custombold{aaman-bhandari}}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.25\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+
+
+\runsubsection{University of Louisiana at Monroe}\\
+\descript{Bachelors in Science in Computer Science and Mathematics}
+
+\location{Expected May 2020 | Monroe, LA}
+\large
+Conc. in Software Engineering \\
+
+
+\sectionsep
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Undergraduate}
+Data Structures \\
+Algorithms \\
+Operating Systems \\
+O-O Programming and Design \\
+Calculus III \\
+Cryptography \\
+Information Security \\
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\large
+\textbullet{} Java \textbullet{}   Python   \\ 
+\textbullet{} Sharepoint \\
+\textbullet{} JavaScript\\
+\textbullet{} HTML 
+\textbullet{} CSS(Cascading Style Sheet) \\
+\sectionsep
+
+\section{Awards}
+\textbullet{} Emerging Scholars Awards \\
+\textbullet{} Annie Lowe Stiles Foundation Scholarship for academic excellence \\
+\sectionsep
+
+\section{Activities}
+\textbullet{} [Vice-President] Association of Computing Machinery \\
+\textbullet{} [Event Committee Head] Global Ambassadors \\ 
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.71\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Project
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{ML-Movie Recommender System}\\
+Built a fully functional movie recommender system as part of a school project. The project uses Java to learn from a set of movie reviews extracted from rotten tomatoes, which frees the system from fake reviews. Next, uses Python to create movie similarities from MovieLens data set, finds/correlates every pair of movies that were watched by same person, measure similarities then sorts it automatically. Finally, uses train/test in
+python to remove outliers. Knowledge required: Java, Python, Numpy, Pandas, Scikit Learn, 
+Mat\medskip plotlib.  
+
+\runsubsection{Google Analytics} \\
+The project centered around integrating google analytics to a website and learning its functionality. Google analytics collects data
+at different levels and helps keep track of all the digital traffic to and from the website. The project required knowledge of programming languages (XML, JavaScript, jQuery), SOAP (Simple Object Access Protocol) API, creating web services and deploying it as well as creating a simple and functional UI for ease of use.
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{-\baselineskip}
+\medskip
+\section{Experience}
+\runsubsection{Software Developer Summer internship} \\
+\location{May 2019 - July 2019 | CenturyLink, Monroe, LA}
+\large Worked as an intern with the content management and salesforce development scrum teams. While there, completed various projects like migrating a service, created for customer service agents to quickly find the information they need to respond to customer issues, from Perl script to Java and in the meantime, fully automating it. Also, worked on several salesforce development tasks using apex, javascript for efficient customer service. Lastly, did some data analytics (figuring correlations/deviations) using Python on the performance metrics of agile development tool used. Required skills: RESTful services, SOAP API, XML, Jason, javascript, jquery, java, python, apex. \\
+\medskip
+\runsubsection{Information Technology summer internship } \\
+\location{May 2018 – Aug 2018 | Cambridge Investment and Research, Fairfield, IA} 
+\large Worked as an intern with the IT production support team. While there, completed various projects within sharepoint ranging from client-side/server-side programming of a sharepoint site to integrating various web services on sharepoint. Also became familiar with scrum framework and agile mindset and how it contributes towards proper development, testing and deployment of an application.
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+\medskip
+\runsubsection{Undergraduate Research Assistant}
+
+\location{ January 2017 – August 2018 | University of Louisiana at Monroe, Monroe, LA} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\vspace*{-\baselineskip}
+\smallskip
+ \large
+
+ 
+\large Worked with mentor and developed a voltage regulator, using a LM 317 circuit to regulate the amount of current to be passed in laser. This was used to make a fully functioning laser to investigate light scattering of collagen protein in basic solution. 
+
+\medskip
+\runsubsection{Supplemental Instructor for Physics}
+
+\location{ August 2018 – May 2019 | University of Louisiana at Monroe, Monroe, LA}
+
+
+
+
+\sectionsep
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS AND SCHOLARSHIPS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{-\baselineskip}
+\medskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     College Activities and Volunteers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
